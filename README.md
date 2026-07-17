@@ -5,7 +5,7 @@ This project is my Capstone for the Bachelor of Science Data Analytics (BSDA) pr
 - This summary (`README.md`)
 - Source Data (`data/`)
 - Proposal Documents (`proposal/`)
-- Exploratory Analysis (`eda/`)
+- Exploratory Analysis Notebook (`eda/`)
 - Final Report (`report/`)
 
 ## Optimistic Analysis: Evaluating S&P 500 Analyst Accuracy
@@ -34,13 +34,9 @@ Do financial analyst firms that exhibit a higher proportion of positive stock ra
 
 My primary data, the S&P 500 analyst set, was obtained from a publically available Kaggle data set, cited below (Urad). This data set contains ... TODO
 
-### Data Cleaning
-
-In order to make the data set more usable and 
-
 ### Exploratory Data Analysis
 
-
+TODO
 
 ### Null Hypothesis
 
