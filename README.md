@@ -5,7 +5,7 @@ This project is my Capstone for the Bachelor of Science Data Analytics (BSDA) pr
 - This summary (`README.md`)
 - Source Data (`data/`)
 - Proposal Documents (`proposal/`)
-- Exploratory Analysis Notebook (`eda/`)
+- Exploratory Analysis (`eda/`)
 - Final Report (`report/`)
 
 ## Optimistic Analysis: Evaluating S&P 500 Analyst Accuracy
@@ -34,9 +34,16 @@ Do financial analyst firms that exhibit a higher proportion of positive stock ra
 
 My primary data, the S&P 500 analyst set, was obtained from a publically available Kaggle data set, cited below (Urad). This data set contains ... TODO
 
+### Data Cleaning
+
+In order to make the data set more usable and accurate, the following actions were performed:
+1. Convert ```event_date``` from a ```str``` object to a ```datetime``` object.
+2. Remove entries with a missing ```firm``` entry.
+3. Remove rows missing accurate ```forward_return``` entries. Specifically, rows with an ```event_date``` on or before ```2014-12-03```
+
 ### Exploratory Data Analysis
 
-TODO
+
 
 ### Null Hypothesis
 
