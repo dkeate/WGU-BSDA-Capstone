@@ -37,6 +37,7 @@ My primary data, the S&P 500 analyst set, was obtained from a publically availab
 ### Data Cleaning
 
 In order to make the data set more usable and accurate, the following actions were performed:
+
 1. Convert ```event_date``` from a ```str``` object to a ```datetime``` object.
 2. Remove entries with a missing ```firm``` entry.
 3. Remove rows missing accurate ```forward_return``` entries. Specifically, rows with an ```event_date``` on or before ```2014-12-03```

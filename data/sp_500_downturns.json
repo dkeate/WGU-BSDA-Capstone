@@ -1,0 +1,58 @@
+[
+    {
+        "Type":"Bear Market",
+        "Local Maxima":1565.15,
+        "Local Minima":676.53,
+        "Start Date":"2007-10-09T16:00:00.000",
+        "End Date":"2009-03-09T16:00:00.000",
+        "Percent Loss":0.5677538894
+    },
+    {
+        "Type":"Correction",
+        "Local Maxima":2130.82,
+        "Local Minima":1829.08,
+        "Start Date":"2015-05-21T16:00:00.000",
+        "End Date":"2016-02-11T16:00:00.000",
+        "Percent Loss":0.1416074563
+    },
+    {
+        "Type":"Correction",
+        "Local Maxima":2872.87,
+        "Local Minima":2581.0,
+        "Start Date":"2018-01-26T16:00:00.000",
+        "End Date":"2018-02-08T16:00:00.000",
+        "Percent Loss":0.1015952688
+    },
+    {
+        "Type":"Correction",
+        "Local Maxima":2930.75,
+        "Local Minima":2351.1,
+        "Start Date":"2018-09-20T16:00:00.000",
+        "End Date":"2018-12-24T16:00:00.000",
+        "Percent Loss":0.1977821377
+    },
+    {
+        "Type":"Bear Market",
+        "Local Maxima":3386.15,
+        "Local Minima":2237.4,
+        "Start Date":"2020-02-19T16:00:00.000",
+        "End Date":"2020-03-23T16:00:00.000",
+        "Percent Loss":0.3392495902
+    },
+    {
+        "Type":"Bear Market",
+        "Local Maxima":4796.56,
+        "Local Minima":3577.03,
+        "Start Date":"2022-01-03T16:00:00.000",
+        "End Date":"2022-10-12T16:00:00.000",
+        "Percent Loss":0.2542509632
+    },
+    {
+        "Type":"Correction",
+        "Local Maxima":6144.14,
+        "Local Minima":4982.78,
+        "Start Date":"2025-02-19T16:00:00.000",
+        "End Date":"2025-04-08T16:00:00.000",
+        "Percent Loss":0.1890191304
+    }
+]

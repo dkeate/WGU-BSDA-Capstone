@@ -10,3 +10,4 @@ dependencies:
   - scikit-learn=1.9
   - matplotlib=3.11
   - scipy=1.18
+  - python-dotenv=1.2
