@@ -3,9 +3,9 @@
 This project is my Capstone for the Bachelor of Science Data Analytics (BSDA) program at Western Governors University (WGU). Within this project are:
 
 - This summary (`README.md`)
-- Source Data (`data/`)
-- Proposal Documents (`proposal/`)
+- Source and Compiled Data (`data/`)
 - Exploratory Analysis (`eda/`)
+- Proposal Documents (`proposal/`)
 - Final Report (`report/`)
 
 ## Optimistic Analysis: Evaluating S&P 500 Analyst Accuracy
@@ -18,10 +18,6 @@ BSDA Program, WGU<br>
 
 Analysis of stock analyst sentiment bias against target revision directional accuracy.
 
-In the financial services sector, equity research analysts serve as vital information sources, providing ratings and price targets to guide participants in financial markets. However, there is a frequent adage among retail investment (and one that I follow as well), “time in the markets beats timing the markets.” In a MSCI blog post, Wickermasinghe describes this advice and provides in depth analysis to support it (2026).
-
-Understanding whether an analyst’s optimistic outlook results in actual outperformance could be informative to a retail investor pursuing advice or a wealth management specialist looking to create recommendations for a client. If highly optimistic analysts consistently outperform the broader market, their targets may serve as reliable indicators for portfolio growth.
-
 By analyzing analyst revisions across the S&P 500 index, this project will seek to provide investors with a data-driven context to evaluate analyst performance based on historical analyst optimism.
 
 ### Research Question
@@ -32,7 +28,7 @@ Do financial analyst firms that exhibit a higher proportion of positive stock ra
 
 ### Data Collection
 
-My primary data, the S&P 500 analyst set, was obtained from a publically available Kaggle data set, cited below (Urad). This data set contains ... TODO
+My primary data, the S&P 500 analyst set, was obtained from a publically available Kaggle data set, cited below (Urad, 2026).
 
 ### Data Cleaning
 
@@ -42,9 +38,13 @@ In order to make the data set more usable and accurate, the following actions we
 2. Remove entries with a missing ```firm``` entry.
 3. Remove rows missing accurate ```forward_return``` entries. Specifically, rows with an ```event_date``` on or before ```2014-12-03```
 
+### Data Created
+
+Using the FMP API @ https://site.financialmodelingprep.com/developer/docs, analyze closing prices to identify market downturns, including corrections and bear markets.
+
 ### Exploratory Data Analysis
 
-
+TODO
 
 ### Null Hypothesis
 
@@ -76,12 +76,10 @@ TODO
 
 Return Horizon | p-value
 ---------------|--------
-XX days        | 
-XX days        | 
-XX days        | 
-XX days        | 
-XX days        | 
-XX days        | 
+ 30 days       | 
+ 90 days       | 
+180 days       | 
+365 days       | 
 
 ## Tools
 
@@ -93,15 +91,12 @@ XX days        |
   - scikit-learn
   - matplotlib
   - scipy
+  - seaborn
 - VS Code
 - JupyterLab
 - GitHub
 
-## References
-
-Wickremasinghe, J. (2026 April 28). Time in the markets beats timing the markets. MSCI. https://www.msci.com/research-and-insights/blog-post/time-in-the-markets-beats-timing-the-markets
-
-### Data Sources
+## Data Source
 
 Urad. (2026). S&P 500 Analyst Rating and Price Target Accuracy [Data set]. Kaggle. https://www.kaggle.com/datasets/uradkr/s-and-p-500-analyst-rating-and-price-target-accuracy
 
