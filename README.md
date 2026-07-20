@@ -22,7 +22,7 @@ By analyzing analyst revisions across the S&P 500 index, this project will seek 
 
 ### Research Question
 
-Do financial analyst firms that exhibit a higher proportion of positive stock ratings (hereon “optimistic”) have better accuracy and success over 90-day and 365-day horizons?
+Do financial analyst firms that exhibit a higher proportion of positive stock ratings (hereon “optimistic”) have better accuracy and success over different time horizons?
 
 ## Methodology
 
@@ -70,7 +70,7 @@ Time Period |Pearson Correlation (r) |p-value
 
 ## Findings
 
-TODO
+Analyst firms classified as optimistic show a higher rate of directional accuracy compared to the remaining analyst population.
 
 ## Tools
 
