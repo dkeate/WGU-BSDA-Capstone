@@ -44,42 +44,33 @@ Using the FMP API @ https://site.financialmodelingprep.com/developer/docs, analy
 
 ### Exploratory Data Analysis
 
-TODO
+My core analysis is focused around calculating 2 derivative metrics, ```firm_optimism``` and ```firm_accuracy```, and comparing them visually using a scatterplot. From this exploratory analysis, there appeared to be a direct link between analyst performance and optimism.
 
-### Null Hypothesis
+### Analyst Correlation and p-value
 
-TODO
+I performed a Pearson Correlation test. The results show that analyst optimism is *moderately* correlated to accuracy and this correlation is *very* likely accurate.
 
-### Correlation Testing
+Time Period |Pearson Correlation (r) |p-value
+------------|------------------------|--------
+30 Days     |0.319                   |0.00137
+90 Days     |0.352                   |3.77e-04
+180 Days    |0.546                   |6.04e-09
+365 Days    |0.594                   |1.84e-10
 
-TODO
+### Time Period Correlation and p-value
 
-### p-value Calculation
+I also perform Pearson Correlation tests for predictions during periods of market downturns. The results of this were inconclusive.
 
-TODO
-
-### Model Training
-
-TODO
-
-### Model API
-
-TODO
+Time Period |Pearson Correlation (r) |p-value
+------------|------------------------|--------
+30 Days     |-0.272                  |0.0161
+90 Days     |-0.247                  |0.0294
+180 Days    |-0.0283                 |0.806
+365 Days    |0.0505                  |0.661
 
 ## Findings
 
 TODO
-
-### Statistical Significance
-
-TODO
-
-Return Horizon | p-value
----------------|--------
- 30 days       | 
- 90 days       | 
-180 days       | 
-365 days       | 
 
 ## Tools
 
