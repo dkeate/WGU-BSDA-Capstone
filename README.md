@@ -78,11 +78,11 @@ Analyst firms classified as optimistic show a higher rate of directional accurac
 - Conda
 - Python
   - pandas
-  - numpy
-  - scikit-learn
   - matplotlib
   - scipy
   - seaborn
+  - requests
+  - json
 - VS Code
 - JupyterLab
 - GitHub
